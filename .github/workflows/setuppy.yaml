@@ -17,7 +17,7 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8.16'
+          python-version: '3.7'
 
       - name: Setup pip
         run: |
@@ -28,7 +28,7 @@ jobs:
           # pip install matplotlib
           pip install opencv-contrib-python
           pip install msgpack-rpc-python
-          pip install airsim==1.6.0
+          pip install airsim==1.8.1
 
       - name: Hello World
         run: |
