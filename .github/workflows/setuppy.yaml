@@ -31,7 +31,7 @@ jobs:
 
       - name: Setup airsim
         run: |
-          pip install airsim==1.7.0
+          pip install airsim==1.8.1
 
       - name: Hello World
         run: |
