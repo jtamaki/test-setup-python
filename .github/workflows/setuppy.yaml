@@ -29,8 +29,9 @@ jobs:
           pip install msgpack-rpc-python
           # pip install airsim==1.7.0
 
-      # - name: Setup airsim
-      #   run: |
+      - name: Setup airsim
+        run: |
+          pip install airsim==1.7.0
 
       - name: Hello World
         run: |
