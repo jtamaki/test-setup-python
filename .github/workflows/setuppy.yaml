@@ -22,11 +22,11 @@ jobs:
       - name: Setup pip
         run: |
           # pip install --upgrade pip
-          pip install numpy
           # pip install numpy --no-cache-dir
+          # pip install opencv-contrib-python
+          pip install numpy
           pip install scipy
           pip install matplotlib
-          # pip install opencv-contrib-python
           pip install msgpack-rpc-python
           pip install airsim==1.5.0
 
