@@ -21,8 +21,8 @@ jobs:
 
       - name: Setup pip
         run: |
-          python3 -m pip install --upgrade pip
-          pip install numpy --upgrade
+          pip install --upgrade pip
+          pip install numpy
           pip install scipy
           pip install matplotlib
           pip install msgpack-rpc-python
