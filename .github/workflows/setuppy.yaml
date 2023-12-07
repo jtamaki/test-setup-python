@@ -17,13 +17,15 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.8'
 
       - name: Setup pip
         run: |
           pip install --upgrade pip
-          pip install numpy --upgrade
+          # pip install numpy --upgrade
+          pip install numpy --no-cache-dir
           pip install scipy
           pip install matplotlib
           pip install msgpack-rpc-python
           pip install airsim==1.7.0
+  
