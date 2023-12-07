@@ -27,7 +27,7 @@ jobs:
           pip install scipy
           pip install matplotlib
           pip install msgpack-rpc-python
-          # pip install airsim==1.7.0
+          # pip install airsim==1.8.1
 
       - name: Setup airsim
         run: |
