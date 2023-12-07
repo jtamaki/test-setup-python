@@ -28,7 +28,7 @@ jobs:
           # pip install matplotlib
           pip install opencv-contrib-python
           pip install msgpack-rpc-python
-          pip install airsim==1.8.1
+          pip install airsim==1.6.0
 
       - name: Hello World
         run: |
